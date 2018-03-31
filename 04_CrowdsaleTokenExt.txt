@@ -20,7 +20,7 @@ Is optimization enabled?: true
 
 *****************************
 
-Token contract name: CrowdsaleTokenExt
+Token contract name: MintSaleTokenExt
 
 SafeMathLib library address: 0xTBD
 

@@ -594,7 +594,7 @@ contract MintableTokenExt is StandardToken, Ownable {
  - The token can be capped (supply set in the constructor) or uncapped (crowdsale contract can mint new tokens)
  
  */
-contract CrowdsaleTokenExt is ReleasableToken, MintableTokenExt, UpgradeableToken {
+contract MintSaleTokenExt is ReleasableToken, MintableTokenExt, UpgradeableToken {
 
   /** Name and symbol were updated. */
   event UpdatedTokenInformation(string newName, string newSymbol);
@@ -621,7 +621,7 @@ contract CrowdsaleTokenExt is ReleasableToken, MintableTokenExt, UpgradeableToke
    *  _decimals Number of decimal places
     _mintable Are new tokens created over the crowdsale or do we distribute only the initial supply? Note that when the token becomes transferable the minting always ends.
    */
-  function CrowdsaleTokenExt(string _name, string _symbol, uint _initialSupply, uint _decimals, bool _mintable, uint _globalMinCap)
+  function MintSaleTokenExt(string _name, string _symbol, uint _initialSupply, uint _decimals, bool _mintable, uint _globalMinCap)
     UpgradeableToken(msg.sender) {
 
     // Create any address, can be transferred
