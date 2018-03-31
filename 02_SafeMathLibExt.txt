@@ -1,0 +1,31 @@
+Token name: AnchorDigital
+
+Token ticker: ADG
+
+Token decimals: 18
+
+Multisig wallet address: 0xeA8564fb5FB1054F8A50744C72E14b857c7cBd7f
+
+*****************************
+
+Crowdsale rate: 1000000000
+
+Crowdsale start time: 2018-XX-00T00:00 (GMT - 5)
+
+Crowdsale end time: 2018-XX-00T00:46:00 (GMT - 5)
+
+Compiler Version: 0.4.19
+
+Is optimization enabled?: true
+
+*****************************
+
+SafeMathLib library name: SafeMathLibExt
+
+SafeMathLib library address: 0xTBD
+
+*****************************
+
+****SafeMathLib contract ABI:**** 
+
+[{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"times","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"plus","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"divides","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"minus","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"}]
