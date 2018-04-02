@@ -8,7 +8,7 @@ in real time. Powered by the Ethereum network through Smart Contracts.
 
 
 ## ADG Token Standard
-Anchor Digital Token "ADG" is compliant with the [ERC20](https://github.com/ethereum/eips/issues/20) standard with some infuences of [ERC233](https://github.com/ethereum/eips/issues/233) and [ERC644](https://github.com/ethereum/eips/issues/644).
+Anchor Digital Token "ADG" is compliant with the [ERC20](https://github.com/ethereum/eips/issues/20) standard with some infuences from [ERC233](https://github.com/ethereum/eips/issues/233) and [ERC644](https://github.com/ethereum/eips/issues/644).
 
 ## Smart Contracts
  Token Contract:
